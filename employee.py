@@ -54,37 +54,32 @@ class Employee:
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
 billie = Employee('Billie')
 billie.monthly_salary = 4000
-print(billie.get_pay())
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
 charlie = Employee('Charlie')
 charlie.hourly_wage = 100
 charlie.hours_worked = 25 
-print(charlie.get_pay())
 
 # Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.
 renee = Employee('Renee')
 renee.monthly_salary = 3000
 renee.commission = 200
 renee.contracts_landed = 4
-print(renee.get_pay())
+
 # Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract.  Their total pay is 4410.
 jan = Employee('Jan')
 jan.hourly_wage = 150
 jan.hours_worked = 25 
 jan.commission = 220
 jan.contracts_landed = 3
-print(jan.get_pay())
 
 # Robbie works on a monthly salary of 2000 and receives a bonus commission of 1500.  Their total pay is 3500.
 robbie = Employee('Robbie')
 robbie.monthly_salary = 2000
 robbie.fixed_bonus = 1500
-print(robbie.get_pay())
 
 # Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.
 ariel = Employee('Ariel')
 ariel.fixed_bonus = 600
 ariel.hourly_wage = 120
 ariel.hours_worked = 30 
-print(ariel.get_pay())
